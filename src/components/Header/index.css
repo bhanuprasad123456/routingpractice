@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+/* Styles for the navigation header */
+.nav-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Styles for the app container holding the logo and menu */
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px; /* Adjust the max-width as per your layout */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Styles for the wave logo image */
+.wave-image {
+  width: 50px;
+  height: 50px;
+}
+
+/* Styles for the navigation menu */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Styles for each navigation link */
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}

@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+/* Styles for the container holding the home content */
+.home-container {
+  text-align: center;
+  max-width: 400px; /* Adjust the max-width as per your layout */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Styles for the image */
+.home-image {
+  width: 100%;
+  max-height: 200px; /* Adjust the max-height as per your image aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the heading */
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
